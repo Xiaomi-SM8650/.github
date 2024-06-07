@@ -1,16 +1,36 @@
 # Org for Xiaomi SM8650 
 #### SOC
-|      Basic | Spec Sheet                                                                   |
-| ---------: | :--------------------------------------------------------------------------- |
-|        SoC | Snapdragon® 8 Gen 3 (SM8650-AB)                                              |
-|        CPU | Octa-core CPU with <br> 1x Cortex-X4 <br> 5x Cortex-A720 <br> 2x Cortex-A520 |
-|        GPU | Adreno 750 (770 MHz)                                                         |
+|      Basic | Spec Sheet                                                                  					   |
+| ---------: | :------------------------------------------------------------------------------------------------------------------ |
+|        SoC | Snapdragon® 8 Gen 3 (SM8650-AB)                                              					   |
+|        CPU | 1x Cortex-X4 (3.3 Ghz) <br> 3x Cortex-A720 (3.15 GHz) <br> 2x Cortex-A720 (2.96 Ghz) <br> 2x Cortex-A520 (2.27 GHz) |
+|        GPU | Adreno 750 (770 MHz)                                                        					   |
+|	      										    					   |
+|	 SoC | Qualcomm Snapdragon 8s Gen 3 (SM8635)					    					   |
+| 	 CPU | 1x Cortex-X4 (3.0 GHz) <br> 4x Cortex-A720 (2.8 Ghz) <br> 3x Cortex-A520 (2.0 Ghz)	    			   |
+|        GPU | Qualcomm Adreno 735	(1.1 GHz)						    				   |
 
 #### Devices 
-- Xiaomi 14 (houji)
-- Xiaomi 14 Pro (shennong)
-- Xiaomi 14 Ultra (aurora)
-- Redmi K70 Pro (manet)
+> SM8650 devices (which use pineapple soc) 
+
+| Device 		| Codename	|
+| --------------------- | ------------- |
+| Xiaomi 14		| houji 	|
+| Xiaomi 14 Pro 	| shennong 	|
+| Xiaomi 14 Ultra 	| aurora 	|
+| Redmi K70 Pro 	| manet 	|
+
+> SM8635 devices (which use cliffs soc) 
+
+| Device 		| Codename	|
+| --------------------- | ------------- |
+|					|
+| Xiaomi Civi 4/Pro 	| chenfeng 	|
+| Redmi Turbo 3/Poco F6 | peridot 	|
+
+> Unknown devices  
+> _goku_  
+> _ruyi_  
 
 #### Build
 > _Attention:_<br>
