@@ -24,7 +24,6 @@
 
 | Device 		| Codename	|
 | --------------------- | ------------- |
-|					|
 | Xiaomi Civi 4/Pro 	| chenfeng 	|
 | Redmi Turbo 3/Poco F6 | peridot 	|
 
