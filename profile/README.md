@@ -1,3 +1,5 @@
+> # **FORCE PUSH WARNING**
+
 # Org for Xiaomi SM8650 
 #### SOC
 |      Basic | Spec Sheet                                                                  					                       |
