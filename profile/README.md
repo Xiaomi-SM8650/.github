@@ -21,6 +21,8 @@
 | Xiaomi 14 Pro 	    | shennong 	    |
 | Xiaomi 14 Ultra     	| aurora 	    |
 | Redmi K70 Pro 	    | manet 	    |
+| Xiaomi Mix Fold 4	| goku			|
+| Xiaomi Mix Flip	| ruyi			|
 
 > SM8635 devices (which use cliffs soc) 
 
@@ -28,10 +30,6 @@
 | --------------------- | ------------- |
 | Xiaomi Civi 4/Pro 	| chenfeng 	    |
 | Redmi Turbo 3/Poco F6 | peridot 	    |
-
-> Unknown devices  
-> _goku_  
-> _ruyi_  
 
 #### Build
 > _Attention:_<br>
