@@ -1,4 +1,4 @@
-> # **FORCE PUSH WARNING**
+# **FORCE PUSH WARNING**
 
 # Org for Xiaomi SM8650 
 #### SOC
@@ -13,7 +13,7 @@
 |        GPU | Qualcomm Adreno 735	(1.1 GHz)						    				                                           |
 
 #### Devices 
-> SM8650 devices (which use pineapple soc) 
+> SM8650 devices
 
 | Device 		        | Codename	    |
 | --------------------- | ------------- |
@@ -24,7 +24,7 @@
 | Xiaomi Mix Fold 4	| goku			|
 | Xiaomi Mix Flip	| ruyi			|
 
-> SM8635 devices (which use cliffs soc) 
+> SM8635 devices 
 
 | Device 		        | Codename      |
 | --------------------- | ------------- |
@@ -52,11 +52,11 @@
     
     | Source                                                                                        | Path                                  |
     | --------------------------------------------------------------------------------------------- | ------------------------------------- |
-    | [nfcandroid_keymint_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_keymint_hidlimpl)   | *hardware/nxp/keymint*                |
-    | [nfcandroid_nfc_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_nfc_hidlimpl)           | *hardware/nxp/nfc*                    |
-    | [nfcandroid_nxp_ese_clients](https://github.com/NXPNFCProject/nfcandroid_nxp_ese_clients)     | *hardware/nxp/secure_element_extns*   |
-    | [nfcandroid_se_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_se_hidlimpl)             | *hardware/nxp/secure_element*         |
-    | [nfcandroid_weaver_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_weaver_hidlimpl)     | *hardware/nxp/weaver*                 |
+    | [nfcandroid_keymint_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_keymint_hidlimpl)   | hardware/nxp/keymint                  |
+    | [nfcandroid_nfc_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_nfc_hidlimpl)           | hardware/nxp/nfc                      |
+    | [nfcandroid_nxp_ese_clients](https://github.com/NXPNFCProject/nfcandroid_nxp_ese_clients)     | hardware/nxp/secure_element_extns     |
+    | [nfcandroid_se_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_se_hidlimpl)             | hardware/nxp/secure_element           |
+    | [nfcandroid_weaver_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_weaver_hidlimpl)     | hardware/nxp/weaver                   |
 
     **Attention: We are using branch *br_android_ncihalx_comm_15* in all of the above repositories**
 4. Build
@@ -64,7 +64,7 @@
     ``` At the top of source code
     . build/envsetup.sh
     lunch <product>-<release>-<variant>
-    # Such as: lunch lineage_houji-ap1a-userdebug
+    # Such as: lunch lineage_houji-ap2a-userdebug
     mka bacon
     ```
     If there is no error report, you can find your newly build in<br>
