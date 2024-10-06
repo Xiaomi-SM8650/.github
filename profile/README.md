@@ -43,23 +43,7 @@
     > LineageOS hasn't tracked sm8650-caf codes of [CodeLinaro](https://git.codelinaro.org/),<br>
     > so we have to do it by ourselves.<br>
     > If LOS already tracked them, just skip this step.
-3. Clone the needed NXP repositories to *hardware/nxp*.
-    > ###### About nxp
-    > Since Xiaomi SM8650 series devices are using **[StrongBox](https://source.android.com/docs/security/best-practices/hardware#strongbox-keymaster)**<br>
-    > as an implementation of the Keymaster or Keymint HAL,<br>
-    > and at the same time, the nxp part of LineageOS source code is outdated.<br>
-    > We just use the [nxp upstream](https://github.com/orgs/NXPNFCProject) source code instead for now.
-    
-    | Source                                                                                        | Path                                  |
-    | --------------------------------------------------------------------------------------------- | ------------------------------------- |
-    | [nfcandroid_keymint_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_keymint_hidlimpl)   | hardware/nxp/keymint                  |
-    | [nfcandroid_nfc_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_nfc_hidlimpl)           | hardware/nxp/nfc                      |
-    | [nfcandroid_nxp_ese_clients](https://github.com/NXPNFCProject/nfcandroid_nxp_ese_clients)     | hardware/nxp/secure_element_extns     |
-    | [nfcandroid_se_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_se_hidlimpl)             | hardware/nxp/secure_element           |
-    | [nfcandroid_weaver_hidlimpl](https://github.com/NXPNFCProject/nfcandroid_weaver_hidlimpl)     | hardware/nxp/weaver                   |
-
-    **Attention: We are using branch *br_android_ncihalx_comm_15* in all of the above repositories**
-4. Build
+3. Build
     > If you want to accelerate the compile, you can configure ccache before compiling.
     ``` At the top of source code
     . build/envsetup.sh
